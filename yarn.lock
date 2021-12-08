@@ -7249,8 +7249,8 @@ trim-trailing-lines@^1.0.0:
   resolved "https://registry.nlark.com/trim-trailing-lines/download/trim-trailing-lines-1.1.4.tgz#bd4abbec7cc880462f10b2c8b5ce1d8d1ec7c2c0"
   integrity sha1-vUq77HzIgEYvELLItc4djR7HwsA=
 
-trim@0.0.1:
-  version "0.0.1"
+trim@0.0.3:
+  version "0.0.3"
   resolved "https://registry.npm.taobao.org/trim/download/trim-0.0.1.tgz#5858547f6b290757ee95cccc666fb50084c460dd"
   integrity sha1-WFhUf2spB1fulczMZm+1AITEYN0=
 
