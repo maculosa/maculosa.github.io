@@ -15,7 +15,6 @@ const config = {
   favicon: 'img/favicon.ico',
   organizationName: 'Banmao Studio', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
-
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -24,13 +23,12 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/maculosa/maculosa.github.io/edit/main/website/',
+          // editUrl: 'https://github.com/maculosa/maculosa.github.io/edit/main/docs/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/maculosa/maculosa.github.io/edit/main/website/blog/',
+          // editUrl: 'https://github.com/maculosa/maculosa.github.io/edit/main/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
