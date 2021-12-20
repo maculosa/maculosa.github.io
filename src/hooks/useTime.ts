@@ -1,7 +1,13 @@
 import { useState, useEffect, useCallback } from "react";
 import dayjs from 'dayjs'
+import utc from 'dayjs/plugin/utc'
+import timezone from 'dayjs/plugin/timezone'
 import type { Dayjs } from 'dayjs'
 
+dayjs.extend(utc)
+dayjs.extend(timezone)
+
+dayjs.tz.setDefault('Asia/Beijing')
 /**
  * 
  * @param format format of the display time

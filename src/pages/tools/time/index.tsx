@@ -8,7 +8,9 @@ const Time = (props) => {
 
   return (
     <div className={styles['time-wrap']} style={props.style}>
-      <Link to="/tools" className={styles.back}>返回</Link>
+      {
+        !props.style && <Link to="/tools" className={styles.back}>返回</Link>
+      }
       <div className={styles['time-title']}>留观时间</div>
       <div className={styles['time-content']}>
         <div >

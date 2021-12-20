@@ -10,10 +10,12 @@
   font-size: 16px;
   transition: font-size 0.3s ease-out;
 }
+
 .back {
   position: absolute;
   top: 16px;
   left: 16px;
+  font-size: 18px;
 }
 
 .time-title {
