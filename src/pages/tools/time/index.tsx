@@ -1,7 +1,7 @@
 import Link from '@docusaurus/Link';
 import React from 'react';
 import styles from './time.module.css';
-import useTime from './useTime';
+import useTime from '../../../hooks/useTime';
 
 const Time = (props) => {
   const { startTime, endTime, time } = useTime('HH:mm', [30, 'm'])
