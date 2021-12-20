@@ -4,22 +4,44 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100vh;
+  flex: 1;
   background-color: #000;
-  color: #fff;
+  color: #ddd;
+  font-size: 16px;
+  transition: font-size 0.3s ease-out;
+}
+.back {
+  position: absolute;
+  top: 16px;
+  left: 16px;
 }
 
 .time-title {
-  font-size: 90px;
+  font-size: 5em;
   font-weight: bold;
   letter-spacing: 3px;
-  margin-bottom: 20px;
+  transition: font-size 0.3s ease-out;
 }
 
 .time-label {
-  font-size: 100px;
+  font-size: 6em;
+  transition: font-size 0.3s ease-out;
 }
 
 .time {
-  font-size: 200px;
+  font-size: 12em;
+  transition: font-size 0.3s ease-out;
+}
+
+
+@media screen and (max-width: 1600px) {
+  .time-wrap {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .time-wrap {
+    font-size: 5px;
+  }
 }

@@ -1,0 +1,37 @@
+.container {
+  max-width: 800px;
+  margin: 20px auto 0;
+}
+.container h1 {
+  padding-left: 16px;
+  margin-bottom: 12px;
+}
+
+.list {
+  display: flex;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.list-item {
+  width: 100%;
+}
+
+.label {
+  margin-left: 16px;
+  font-size: 24px;
+  line-height: 2;
+}
+
+ul,li {
+  padding: 0;
+  list-style: none;
+}
+
+.card {
+  width: 100%;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  border-radius: 16px;
+  padding-bottom: 10px;
+}
