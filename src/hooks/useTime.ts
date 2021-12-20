@@ -27,7 +27,6 @@ function useTime(format: string, interval?: [number, 'd' | 'w' | 'M' | 'Q' | 'y'
     const timer = setTimeout(() => {
       setTime(dayjs());
     }, 1000);
-
     return () => {
       clearInterval(timer);
     };
@@ -36,7 +35,8 @@ function useTime(format: string, interval?: [number, 'd' | 'w' | 'M' | 'Q' | 'y'
   if (interval && interval.length) {
     return {
       startTime: getTime(time),
-      endTime: getTime(time, interval)
+      endTime: getTime(time, interval),
+      time: time,
     };
   }
 

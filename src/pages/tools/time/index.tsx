@@ -4,7 +4,7 @@ import styles from './time.module.css';
 import useTime from '../../../hooks/useTime';
 
 const Time = (props) => {
-  const { startTime, endTime, time } = useTime('HH:mm', [30, 'm'])
+  const { startTime, endTime } = useTime('HH:mm', [30, 'm'])
 
   return (
     <div className={styles['time-wrap']} style={props.style}>
