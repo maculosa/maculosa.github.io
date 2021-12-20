@@ -13,10 +13,12 @@ const Tools = () => {
         <ul className={styles.list}>
           <li className={styles['list-item']}>
             <div className={styles.card}>
-              <div style={{ overflow: 'hidden' }} >
-                <Time style={{ fontSize: '5px'}} />
+              <div className={styles['card-content']}>
+                <Time style={{ fontSize: '4px'}} />
               </div>
-              <Link to="/tools/time" className={styles.label} >留观时间</Link>
+              <div className={styles['card-footer']}>
+                <Link to="/tools/time" className={styles.label} >留观时间</Link>
+              </div>
             </div>
           </li>
         </ul>
