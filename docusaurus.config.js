@@ -55,7 +55,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            to: '/docs/tools',
+            to: '/tools',
             label: 'Tools',
             position: 'right'
           },
