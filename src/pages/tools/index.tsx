@@ -17,7 +17,8 @@ const Tools = () => {
                 <Time style={{ fontSize: '4px'}} />
               </div>
               <div className={styles['card-footer']}>
-                <Link to="/tools/time" className={styles.label} >留观时间</Link>
+                <Link to="/tools/time" className={styles.title} >留观时间</Link>
+                <span className={styles.subtitle}>留观登记参考时间</span>
               </div>
             </div>
           </li>

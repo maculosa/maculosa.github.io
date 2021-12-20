@@ -6,17 +6,40 @@
   /* width: 100%; */
   height: 100%;
   flex: 1;
-  background-color: #000;
-  color: #ddd;
+  background-color: #fff;
+  color: #666;
   font-size: 16px;
   transition: all 0.3s ease-out;
 }
 
-.back {
+html[data-theme='dark'] .time-wrap {
+  background-color: #18191a;
+  color: #f5f6f7;
+}
+
+.menubar {
   position: absolute;
   top: 16px;
-  left: 16px;
+  left: 0;
   font-size: 18px;
+  width: 100%;
+  padding: 0 16px;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.menubar .button {
+  background: transparent;
+  border: none;
+  color: #25c2a0;
+  font-size: 18px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.menubar .button:hover {
+  color: #25c2a088;
 }
 
 .time-title {
