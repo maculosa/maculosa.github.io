@@ -51,13 +51,46 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          { to: '/blog', label: 'Blog', position: 'left'},
+          { label: 'Web', position: 'left', items: [
+            { to: '/vue', label: 'Vue' },
+            { to: '/react', label: 'React' },
+            { to: '/mobile', label: 'Mobile' },
+          ] },
+          {to: '/design', label: 'Design', position: 'left'},
+          {to: '/nodejs', label: 'Node.js', position: 'right'},
+          {to: '/golang', label: 'Golang', position: 'left'},
+          {to: '/rust', label: 'Rust', position: 'left' },
+          {to: '/linux', label: 'Linux', position: 'right', items: [
+            { to: '/linux/archlinux', label: 'Arch Linux' },
+            { to: '/linux/ubuntu', label: 'Ubuntu' },
+            { to: '/linux/termux', label: 'Termux' }
+          ]},
+          {  to: '/editor', label: 'Editor', position: 'right', items: [
+            { to: '/editor/vim', label: 'Vim'},
+            { to: '/editor/emacs', label: 'Emacs' },
+            { to: '/editor/vscode', label: 'VS Code'}
+          ] },
           {
             to: '/tools',
             label: 'Tools',
-            position: 'right'
+            position: 'right',
+            items: [
+              {
+                to: '/tools/time',
+                label: '留观时间',
+              },
+              {
+                to: '/git',
+                label: 'Git'
+              },
+              {
+                to: 'https://cn.sli.dev/',
+                label: 'Slidev'
+              }
+            ]
           },
           {
             href: 'https://github.com/maculosa/maculosa.github.io',
