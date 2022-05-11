@@ -31,7 +31,11 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 }
 
 html[data-theme='dark'] {
-  --ifm-background-color: #313C4D;
-  --ifm-navbar-background-color: #475770;
-  --ifm-font-color-base: #7C88A2;
+  --ifm-background-color: #17223b;
+  --ifm-navbar-background-color: #263859;
+  --ifm-font-color-base: #ff6768;
+  --ifm-link-color: var(--ifm-font-color-base);
+  --ifm-menu-color-background-active: var(--ifm-font-color-base);
+  --ifm-navbar-link-color: white;
+  --ifm-navbar-link-hover-color: var(--ifm-font-color-base);
 }

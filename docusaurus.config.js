@@ -36,7 +36,10 @@ const config = {
       }),
     ],
   ],
-
+  // i18n: {
+  //   defaultLocale: 'en',
+  //   locales: ['en', 'zh-CN']
+  // },
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -57,7 +60,6 @@ const config = {
           { label: 'Web', position: 'left', items: [
             { to: '/vue', label: 'Vue' },
             { to: '/react', label: 'React' },
-            { to: '/mobile', label: 'Mobile' },
           ] },
           {to: '/design', label: 'Design', position: 'left'},
           {to: '/nodejs', label: 'Node.js', position: 'right'},

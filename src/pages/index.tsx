@@ -31,11 +31,17 @@ export default function Home(): JSX.Element {
     <Layout
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />"
-      >
+      noFooter
+      wrapperClassName={styles['warp']}
+    >
       {/* <HomepageHeader /> */}
-      <main>
+      {/* <main className={styles['warp']}> */}
         {/* <HomepageFeatures /> */}
-      </main>
+        <div className={styles['tool-card']}>
+          <p className={styles['tool-name']}>Banmao Studio</p>
+          <div className={styles.gradient1}></div>
+        </div>
+      {/* </main> */}
     </Layout>
   );
 }

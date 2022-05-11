@@ -21,3 +21,72 @@
   align-items: center;
   justify-content: center;
 }
+
+.warp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.tool-card {
+  position: relative;
+  width: 70%;
+  min-height: 40rem;
+  cursor: pointer;
+  border-radius: 25%/50% 50%;
+}
+
+@keyframes shadow1 {
+  0% {
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+  }
+  100% {
+    text-shadow: 15px -10px 2px rgba(0, 0, 0, 0.8);
+  }
+}
+
+.tool-card:hover .tool-name {
+  text-shadow: 15px -10px 2px rgba(0, 0, 0, 0.8);
+}
+
+
+.gradient1 {
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 70%;
+  height: 60%;
+  background: linear-gradient(197.37deg, #7450DB -0.38%, rgba(138, 234, 240, 0) 101.89%), linear-gradient(115.93deg, #3E88F6 4.86%, rgba(62, 180, 246, 0.33) 38.05%, rgba(62, 235, 246, 0) 74.14%), radial-gradient(56.47% 76.87% at 6.92% 7.55%, rgba(62, 136, 246, 0.7) 0%, rgba(62, 158, 246, 0.182) 52.16%, rgba(62, 246, 246, 0) 100%), linear-gradient(306.53deg, #2EE4E3 19.83%, rgba(46, 228, 227, 0) 97.33%); background-blend-mode: saturation, color, multiply, overlay, darken, color-dodge; filter: blur(50px);
+}
+
+.tool-name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 200;
+  mix-blend-mode: overlay;
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+  letter-spacing: -.05em;
+  line-height: 1;
+  font-weight: 800;
+  font-size: 10rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8); */
+  text-shadow: 15px -10px 2px rgba(0, 0, 0, 0.8);
+  transition: all 0.5s ease-out;
+  animation: shadow1 1s;
+}
