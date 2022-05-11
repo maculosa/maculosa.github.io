@@ -34,6 +34,12 @@ const config = {
           customCss: require.resolve('./src/css/custom.css'),
         },
       }),
+      {
+        googleAnalytics: {
+          trackingID: 'G-L3BN6286VQ',
+          anonymizeIP: true,
+        }
+      }
     ],
   ],
   // i18n: {
@@ -60,20 +66,18 @@ const config = {
           { label: 'Web', position: 'left', items: [
             { to: '/vue', label: 'Vue' },
             { to: '/react', label: 'React' },
+            { to: '/css', label: 'CSS' }
           ] },
-          {to: '/design', label: 'Design', position: 'left'},
+          // {to: '/design', label: 'Design', position: 'left'},
           {to: '/nodejs', label: 'Node.js', position: 'right'},
-          {to: '/golang', label: 'Golang', position: 'left'},
-          {to: '/rust', label: 'Rust', position: 'left' },
+          // {to: '/golang', label: 'Golang', position: 'left'},
+          // {to: '/rust', label: 'Rust', position: 'left' },
           {to: '/linux', label: 'Linux', position: 'right', items: [
             { to: '/linux/archlinux', label: 'Arch Linux' },
-            { to: '/linux/ubuntu', label: 'Ubuntu' },
             { to: '/linux/termux', label: 'Termux' }
           ]},
           {  to: '/editor', label: 'Editor', position: 'right', items: [
-            { to: '/editor/vim', label: 'Vim'},
             { to: '/editor/emacs', label: 'Emacs' },
-            { to: '/editor/vscode', label: 'VS Code'}
           ] },
           {
             to: '/tools',
@@ -83,6 +87,7 @@ const config = {
               {
                 to: '/tools/time',
                 label: '留观时间',
+                description: '哈哈'
               },
               {
                 to: '/git',
