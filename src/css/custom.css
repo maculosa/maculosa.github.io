@@ -6,7 +6,7 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #192B33;
+  --ifm-color-primary: #192b33;
   --ifm-color-primary-dark: rgb(33, 175, 144);
   --ifm-color-primary-darker: rgb(31, 165, 136);
   --ifm-color-primary-darkest: rgb(26, 136, 112);
@@ -14,7 +14,7 @@
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --ifm-code-font-size: 95%;
-  --ifm-navbar-background-color: #FFDA5C;
+  --ifm-navbar-background-color: #3e82;
   --ifm-font-color-base: #189981;
   --ifm-heading-color: var(--ifm-font-color-base);
 }
@@ -26,11 +26,11 @@
   padding: 0 var(--ifm-pre-padding);
 }
 
-html[data-theme='dark'] .docusaurus-highlight-code-line {
+html[data-theme="dark"] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-html[data-theme='dark'] {
+html[data-theme="dark"] {
   --ifm-background-color: #17223b;
   --ifm-navbar-background-color: #263859;
   --ifm-font-color-base: #ff6768;
@@ -38,4 +38,33 @@ html[data-theme='dark'] {
   --ifm-menu-color-background-active: var(--ifm-font-color-base);
   --ifm-navbar-link-color: white;
   --ifm-navbar-link-hover-color: var(--ifm-font-color-base);
+}
+
+.navbar {
+  background: linear-gradient(
+      197.37deg,
+      #7450db -0.38%,
+      rgba(138, 234, 240, 0) 101.89%
+    ),
+    linear-gradient(
+      115.93deg,
+      #3e88f6 4.86%,
+      rgba(62, 180, 246, 0.33) 38.05%,
+      rgba(62, 235, 246, 0) 74.14%
+    ),
+    radial-gradient(
+      56.47% 76.87% at 6.92% 7.55%,
+      rgba(62, 136, 246, 0.7) 0%,
+      rgba(62, 158, 246, 0.182) 52.16%,
+      rgba(62, 246, 246, 0) 100%
+    ),
+    linear-gradient(306.53deg, #2ee4e3 19.83%, rgba(46, 228, 227, 0) 97.33%);
+  background-blend-mode: saturation, color, multiply, overlay, darken,
+    color-dodge;
+  /* filter: blur(50px); */
+  box-shadow: 0 3px 6px rgba(0,0,0,0.4);
+}
+.navbar__link {
+  color: white;
+  text-shadow: 0 2px 3px rgba(0,0,0,0.3);
 }

@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Banmao Studio',
   tagline: 'Banmao\'s Blog are cool',
-  url: 'https://blog.banmao.studio',
+  url: 'https://banmao.netlify.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -44,10 +44,10 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Banmao Studio',
+        // title: 'Banmao Studio',
         logo: {
           alt: 'Banmao Studio',
-          src: 'img/logo.png',
+          src: 'img/logo.svg',
         },
         items: [
           {
