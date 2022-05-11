@@ -44,6 +44,9 @@ const config = {
   //   defaultLocale: 'en',
   //   locales: ['en', 'zh-CN']
   // },
+  themes: [
+    '@docusaurus/theme-live-codeblock'
+  ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -152,6 +155,14 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+        additionalLanguages: ['rust', 'java', 'lisp', 'vim', 'toml', 'protobuf', 'nginx'],
+      },
+      liveCodeBlock: {
+        /**
+         * 实时效果显示的位置，可位于编辑器上方或下方。
+         * 可为："top" | "bottom"
+         */
+        playgroundPosition: 'top',
       },
     }),
 };
