@@ -3,8 +3,18 @@
   "name": "Banmao Blog",
   "icons": [
     {
-      "src": "img/logo-mini.svg",
+      "src": "img/icons-vector.svg",
       "type": "image/svg+xml",
+      "sizes": "512x512"
+    },
+    {
+      "src": "img/icons-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "img/icons-512.png",
+      "type": "image/png",
       "sizes": "512x512"
     }
   ],
@@ -18,15 +28,16 @@
       "name": "Linux Docs",
       "short_name": "Linux",
       "description": "View Linux Documents",
-      "url": "/linux"
+      "url": "/linux",
+      "icons": [{ "src": "img/icons-192.png", "sizes": "192x192" }]
     }
   ],
   "description": "Banmao blog",
   "screenshots": [
     {
       "src": "img/logo.png",
-      "type": "image/png"
-      
+      "type": "image/png",
+      "sizes": "440x120"
     }
   ]
 }
