@@ -38,6 +38,15 @@
   border-radius: 25%/50% 50%;
 }
 
+@media (max-width: 966px) {
+  .tool-card {
+    width: 100%;
+  }
+  .tool-name {
+    font-size: 5rem!important;
+  }
+}
+
 @keyframes shadow1 {
   0% {
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
@@ -72,7 +81,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 200;
+  z-index: 20;
   mix-blend-mode: overlay;
   --tw-text-opacity: 1;
   color: rgba(255, 255, 255, var(--tw-text-opacity));

@@ -14,9 +14,10 @@
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --ifm-code-font-size: 95%;
-  --ifm-navbar-background-color: #3e82;
+  --ifm-navbar-background-color: #6e8fff;
   --ifm-font-color-base: #189981;
   --ifm-heading-color: var(--ifm-font-color-base);
+  --ifm-menu-color: rgba(255, 255, 255);
 }
 
 .docusaurus-highlight-code-line {
@@ -40,7 +41,9 @@ html[data-theme="dark"] {
   --ifm-navbar-link-hover-color: var(--ifm-font-color-base);
 }
 
-.navbar {
+.navbar,
+.navbar-sidebar
+{
   background: linear-gradient(
       197.37deg,
       #7450db -0.38%,
@@ -67,4 +70,11 @@ html[data-theme="dark"] {
 .navbar__link {
   color: white;
   text-shadow: 0 2px 3px rgba(0,0,0,0.3);
+}
+
+.navbar__toggle>svg>path:nth-child(1) {
+  stroke: white;
+}
+.menu__link--sublist-caret::after {
+  filter: #ffffff;
 }
