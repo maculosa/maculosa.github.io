@@ -36,6 +36,7 @@
   min-height: 40rem;
   cursor: pointer;
   border-radius: 25%/50% 50%;
+  transition: width 0.3s;
 }
 
 @media (max-width: 966px) {

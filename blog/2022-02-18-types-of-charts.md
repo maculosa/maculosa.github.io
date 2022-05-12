@@ -1,5 +1,5 @@
 ---
-title: 图标种类
+title: 图表种类
 date: 2022-02-18T11:38:11+08:00
 slug: types-of-charts
 authors: Qingfeng
