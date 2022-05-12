@@ -14,7 +14,8 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'Banmao Studio', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  projectName: 'maculosa.github.io', // Usually your repo name.
+  deploymentBranch: 'gh-pages',
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -151,6 +152,12 @@ const config = {
             ],
           },
         ],
+        logo: {
+          alt: 'Banmao Logo',
+          src: 'img/logo.svg',
+          width: 160,
+
+        },
         copyright: `Copyright © ${new Date().getFullYear()} Banmao Studio, Inc. Built with Docusaurus.`,
       },
       prism: {
@@ -166,6 +173,12 @@ const config = {
         playgroundPosition: 'top',
       },
     }),
+  scripts: [
+    {
+      src: 'baidu-analytics.js',
+      async: true,
+    }
+  ]
 };
 
 module.exports = config;
