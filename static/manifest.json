@@ -1,0 +1,32 @@
+{
+  "short_name": "Banmao",
+  "name": "Banmao Blog",
+  "icons": [
+    {
+      "src": "img/logo-mini.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/?source=pwa",
+  "background_color": "#3367D6",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#3367D6",
+  "shortcuts": [
+    {
+      "name": "Linux Docs",
+      "short_name": "Linux",
+      "description": "View Linux Documents",
+      "url": "/linux"
+    }
+  ],
+  "description": "Banmao blog",
+  "screenshots": [
+    {
+      "src": "img/logo.png",
+      "type": "image/png"
+      
+    }
+  ]
+}
