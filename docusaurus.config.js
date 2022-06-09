@@ -77,6 +77,10 @@ const config = {
             { to: '/react', label: 'React' },
             { to: '/css', label: 'CSS' }
           ] },
+          {
+            label: '程序员的测试课',
+            to: '/developer/test_course'
+          },
           // {to: '/design', label: 'Design', position: 'left'},
           {to: '/nodejs', label: 'Node.js', position: 'right'},
           // {to: '/golang', label: 'Golang', position: 'left'},
@@ -97,6 +101,11 @@ const config = {
                 to: '/tools/time',
                 label: '留观时间',
                 description: '哈哈'
+              },
+              {
+                to: '/tools/explanation',
+                label: '名词解释',
+                description: '不懂就看看(o゜▽゜)o☆[BINGO!]'
               },
               {
                 to: '/git',
