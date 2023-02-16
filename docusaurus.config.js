@@ -27,7 +27,10 @@ const config = {
           // editUrl: 'https://github.com/maculosa/maculosa.github.io/edit/main/docs/',
         },
         blog: {
+          routeBasePath: '/',
           showReadingTime: true,
+          readingTime: ({content, frontMatter, defaultReadingTime}) =>
+            defaultReadingTime({content, options: {wordsPerMinute: 300}}),
           // Please change this to your repo.
           // editUrl: 'https://github.com/maculosa/maculosa.github.io/edit/main/blog/',
         },
@@ -85,10 +88,6 @@ const config = {
           {to: '/nodejs', label: 'Node.js', position: 'right'},
           // {to: '/golang', label: 'Golang', position: 'left'},
           // {to: '/rust', label: 'Rust', position: 'left' },
-          {to: '/linux', label: 'Linux', position: 'right', items: [
-            { to: '/linux/archlinux', label: 'Arch Linux' },
-            { to: '/linux/termux', label: 'Termux' }
-          ]},
           {  to: '/editor', label: 'Editor', position: 'right', items: [
             { to: '/editor/emacs', label: 'Emacs' },
           ] },
@@ -125,54 +124,53 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
+        style: 'light',
         links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              // {
-              //   label: 'Stack Overflow',
-              //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              // },
-              // {
-              //   label: 'Discord',
-              //   href: 'https://discordapp.com/invite/docusaurus',
-              // },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/LMaculosa',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/maculosa/maculosa.github.io',
-              },
-            ],
-          },
+          // {
+          //   title: 'Docs',
+          //   items: [
+          //     {
+          //       label: 'Tutorial',
+          //       to: '/docs/intro',
+          //     },
+          //   ],
+          // },
+          // {
+          //   title: 'Community',
+          //   items: [
+          //     // {
+          //     //   label: 'Stack Overflow',
+          //     //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+          //     // },
+          //     // {
+          //     //   label: 'Discord',
+          //     //   href: 'https://discordapp.com/invite/docusaurus',
+          //     // },
+          //     {
+          //       label: 'Twitter',
+          //       href: 'https://twitter.com/LMaculosa',
+          //     },
+          //   ],
+          // },
+          // {
+          //   title: 'More',
+          //   items: [
+          //     {
+          //       label: 'Blog',
+          //       to: '/blog',
+          //     },
+          //     {
+          //       label: 'GitHub',
+          //       href: 'https://github.com/maculosa/maculosa.github.io',
+          //     },
+          //   ],
+          // },
         ],
-        logo: {
-          alt: 'Banmao Logo',
-          src: 'img/logo.svg',
-          width: 160,
-
-        },
+        // logo: {
+        //   alt: 'Banmao Logo',
+        //   src: 'img/logo.svg',
+        //   width: 160,
+        // },
         copyright: `Copyright © ${new Date().getFullYear()} Banmao Studio, Inc. Built with Docusaurus.`,
       },
       prism: {

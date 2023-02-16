@@ -14,10 +14,11 @@
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --ifm-code-font-size: 95%;
-  --ifm-navbar-background-color: #6e8fff;
+  --ifm-navbar-background-color: transparent;
   --ifm-font-color-base: #189981;
   --ifm-heading-color: var(--ifm-font-color-base);
-  --ifm-menu-color: rgba(255, 255, 255);
+  /* --ifm-menu-color: #ffcc31; */
+  /* --ifm-menu-color-background-active: #ffcc31; */
 }
 
 .docusaurus-highlight-code-line {
@@ -33,7 +34,7 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
 
 html[data-theme="dark"] {
   --ifm-background-color: #17223b;
-  --ifm-navbar-background-color: #263859;
+  --ifm-navbar-background-color: #000000;
   --ifm-font-color-base: #ff6768;
   --ifm-link-color: var(--ifm-font-color-base);
   --ifm-menu-color-background-active: var(--ifm-font-color-base);
@@ -41,10 +42,17 @@ html[data-theme="dark"] {
   --ifm-navbar-link-hover-color: var(--ifm-font-color-base);
 }
 
+html {
+  background: url(/static/img/background.png) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 .navbar,
 .navbar-sidebar
 {
-  background: linear-gradient(
+  /* background: 
+  linear-gradient(
       197.37deg,
       #7450db -0.38%,
       rgba(138, 234, 240, 0) 101.89%
@@ -61,20 +69,26 @@ html[data-theme="dark"] {
       rgba(62, 158, 246, 0.182) 52.16%,
       rgba(62, 246, 246, 0) 100%
     ),
-    linear-gradient(306.53deg, #2ee4e3 19.83%, rgba(46, 228, 227, 0) 97.33%);
+    linear-gradient(270deg, #2ee4e3 9.83%, rgba(46, 228, 227, 0) 90.33%); */
   background-blend-mode: saturation, color, multiply, overlay, darken,
     color-dodge;
   /* filter: blur(50px); */
   box-shadow: 0 3px 6px rgba(0,0,0,0.4);
 }
+
+.navbar-sidebar__back,
+.clean-btn {
+  color: #ffcc31;
+}
+
 .navbar__link {
-  color: white;
+  color: #3d6ee2;
   text-shadow: 0 2px 3px rgba(0,0,0,0.3);
 }
 
 .navbar__toggle>svg>path:nth-child(1) {
-  stroke: white;
+  /* stroke: white; */
 }
 .menu__link--sublist-caret::after {
-  filter: #ffffff;
+  filter: #ffcc31;
 }
