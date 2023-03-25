@@ -10,7 +10,7 @@ const config = {
   tagline: 'Banmao\'s Blog are cool',
   url: 'https://banmao.netlify.app/',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'maculosa', // Usually your GitHub org/user name.
