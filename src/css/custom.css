@@ -73,7 +73,7 @@ html {
   background-blend-mode: saturation, color, multiply, overlay, darken,
     color-dodge;
   /* filter: blur(50px); */
-  box-shadow: 0 3px 6px rgba(0,0,0,0.4);
+  box-shadow: 0 -3px 10px 5px rgba(0,0,0,0.4);
 }
 
 .navbar-sidebar__back,
@@ -92,3 +92,8 @@ html {
 .menu__link--sublist-caret::after {
   filter: #ffcc31;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind screens;

@@ -1,0 +1,29 @@
+.content {
+    flex: 1;
+    display: flex;
+    grid-column-gap: 16px;
+    flex-wrap: wrap;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.card {
+    width: 200px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+    padding: 8px 12px;
+    box-sizing: border-box;
+}
+
+.card .title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card .description {
+    font-size: 14px;
+    font-weight: normal;
+    color:rgba(0, 0, 0, 0.7);
+}

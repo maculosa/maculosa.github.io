@@ -13,7 +13,7 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'Banmao Studio', // Usually your GitHub org/user name.
+  organizationName: 'maculosa', // Usually your GitHub org/user name.
   projectName: 'maculosa.github.io', // Usually your repo name.
   deploymentBranch: 'gh-pages',
   presets: [
@@ -27,7 +27,7 @@ const config = {
           // editUrl: 'https://github.com/maculosa/maculosa.github.io/edit/main/docs/',
         },
         blog: {
-          routeBasePath: '/',
+          // routeBasePath: '/',
           showReadingTime: true,
           readingTime: ({content, frontMatter, defaultReadingTime}) =>
             defaultReadingTime({content, options: {wordsPerMinute: 300}}),
@@ -85,11 +85,13 @@ const config = {
             to: '/developer/test_course'
           },
           // {to: '/design', label: 'Design', position: 'left'},
-          {to: '/nodejs', label: 'Node.js', position: 'right'},
+          {to: '/snippets', label: 'Snippet Code', position: 'right'},
           // {to: '/golang', label: 'Golang', position: 'left'},
           // {to: '/rust', label: 'Rust', position: 'left' },
           {  to: '/editor', label: 'Editor', position: 'right', items: [
             { to: '/editor/emacs', label: 'Emacs' },
+            { to: '/editor/vim', label: 'Vim' },
+            { to: '/editor/vscode', label: 'VS Code' }
           ] },
           {
             to: '/tools',
@@ -176,7 +178,7 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
-        additionalLanguages: ['rust', 'java', 'lisp', 'vim', 'toml', 'protobuf', 'nginx'],
+        additionalLanguages: ['rust', 'java', 'lisp', 'vim', 'toml', 'protobuf', 'nginx', 'go', 'python', 'tsx', 'jsx'],
       },
       liveCodeBlock: {
         /**
@@ -193,6 +195,7 @@ const config = {
     }
   ],
   plugins: [
+    "./postcss-tailwind-loader",
     [
       '@docusaurus/plugin-pwa',
       {
