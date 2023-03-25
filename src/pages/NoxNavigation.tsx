@@ -22,7 +22,9 @@ export default (props) => {
         { name: 'Bing', url: 'https://www.bing.com' },
         { name: '清华镜像源', url: 'https://mirrors.tuna.tsinghua.edu.cn' },
         { name: 'Rust语言圣经', url: 'https://course.rs/about-book.html' },
-        { name: 'Slidev', url: 'https://sli.dev/' }
+        { name: 'Slidev', url: 'https://sli.dev/' },
+        { name: 'Docusaurus', url: 'https://docusaurus.io/zh-CN/' },
+        { name: 'TailwindCSS', url: 'https://tailwindcss.com/' } 
     ]
 
     return (
