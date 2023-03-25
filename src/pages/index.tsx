@@ -33,10 +33,8 @@ export default function Home(): JSX.Element {
     <Layout
       title={''}
       description="Description will go into a meta tag in <head />"
-      noFooter
-      wrapperClassName={styles['warp']}
     >
-      <div className="container-full flex h-full">
+      <div className="container-full flex">
         <NoxNavigation className="w-3/4" />
 
         <div className={classnames(styles['tool-card'], 'w-1/4')}>

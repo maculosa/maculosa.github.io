@@ -12,7 +12,7 @@ export default ({
 }: NoxItem) => {
 
     return (
-            <Link className="transition-all duration-500 ease-in-out w-[220px] h-[100px] p-6 bg-white shadow-md hover:shadow-teal-500 rounded"
+            <Link className="transition-all duration-500 ease-in-out w-[160px] p-3 bg-white shadow-md hover:shadow-teal-500 rounded"
                 to={url}
             >
                 <div className="text-indigo-800 font-bold no-underline">{ name }</div>
