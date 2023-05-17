@@ -38,7 +38,7 @@ Arch Linux 默认使用 iwctl 对无线网络进行身份验证。
 
    ```
    iwctl
-   ```
+   ``**https://cme.91huayi.com**`
 
 2. 如果不知道无线设备名称，在 [iwd#] 输入 `device list` 查询机器的网卡设备。
 
@@ -107,8 +107,9 @@ mkfs.ext4 /dev/sda3
 
 如果你也创建了 swap 分区，需要使用 `mkswap` 对其进行初始化。
 
-```
-mkswap /dev/sda2swapon /dev/sda2
+```bash
+mkswap /dev/sda2
+swapon /dev/sda2
 ```
 
  如果你的电脑是 UEFI 启动模式的话，则还需要对 EFI 系统分区进行初始化：
@@ -128,7 +129,8 @@ mount /dev/sda2 /mnt
 挂载 efi 分区
 
 ```bash
-mkdir /mnt/efimount /dev/sda1 /mnt/efi
+mkdir /mnt/efi
+mount /dev/sda1 /mnt/efi
 ```
 
 > swap 分区不需要挂载分区，在上面格式化交换分区时，已经开启了。
@@ -143,8 +145,8 @@ Arch Linux 所有的软件包都需要从 镜像服务器中下载。镜像源�
 
 ### 安装必要的软件包
 
-```
-pacstrap /mnt base linux linux-firmware
+```bash
+pacstrap /mnt base linux linux-firmware linux-headers base base-devel vim git bash-completion
 ```
 
 等待安装完成，到此，理论上系统已经完成了安装，但是还是无法正常使用，需要进行配置才能正常使用。
@@ -240,7 +242,7 @@ passwd
 **安装引导程序**
 
 ```bash
-pacman -S grub efibootmgr
+pacman -S grub efibootmgr efivar intel-ucode
 ```
 
 将引导程序安装到系统中：
