@@ -101,7 +101,7 @@ fdisk -l
 
 对于 root 分区直接使用 `ext4` 文件系统进行初始化：
 
-```
+```bash
 mkfs.ext4 /dev/sda3
 ```
 
@@ -123,7 +123,7 @@ mkfs.fat -F32 /dev/sda1
 挂载 `root` 分区：
 
 ```bash
-mount /dev/sda2 /mnt
+mount /dev/sda3 /mnt
 ```
 
 挂载 efi 分区
@@ -268,7 +268,8 @@ pacman -S iwd dhcpcd
 安装完成后，退出 chroot、重启：
 
 ```bash
-exitreboot
+$ exit
+$ reboot
 ```
 
 ## 安装后的配置
