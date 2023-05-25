@@ -2,7 +2,7 @@
 title: 图表种类
 date: 2022-02-18T11:38:11+08:00
 slug: types-of-charts
-authors: Qingfeng
+authors: Liu Qingfeng
 tags: ["Chart"]
 categories: ["Data Visualization", "数据可视化"]
 series: ["数据分析", "Data Analysis"]

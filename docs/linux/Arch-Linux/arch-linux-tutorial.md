@@ -205,9 +205,7 @@ locale-gen
 
 ```bash
 vim /etc/locale.conf
-```
-
-```
+-----------------------------
 LANG=en_US.UTF-8
 ```
 
@@ -217,18 +215,20 @@ LANG=en_US.UTF-8
 
 ```bash
 vim /etc/hostname
-```
-
-```
-myhostname
+-----------------------------
+archlinux
 ```
 
 > myhostname 可换成自己想要的名字即可。
 
 **添加 hosts**
 
-```
-vim /etc/hosts-------------------------127.0.0.1		localhost::1				localhost127.0.0.1		myhostname.localdomain	myhostname
+```bash
+$ vim /etc/hosts
+-------------------------
+127.0.0.1		localhost::1				
+localhost      127.0.0.1		
+127.0.1.1      archlinux.localdomain	archlinux
 ```
 
 > 如果你的系统有一个永久地址，使用这个永久地址替换上述的 `127.0.0.1`。

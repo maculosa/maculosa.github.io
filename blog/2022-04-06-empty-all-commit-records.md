@@ -2,7 +2,7 @@
 title: Empty all commit records in Git
 date: 2022-04-06T14:49:11+08:00
 slug: empty-all-commit-records-in-git
-author: Qingfeng
+author: Liu Qingfeng
 tags: ["Git"]
 categories: ["Git"]
 ---
