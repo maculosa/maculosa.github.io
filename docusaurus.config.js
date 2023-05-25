@@ -121,6 +121,10 @@ const config = {
           {
             href: 'https://github.com/maculosa/maculosa.github.io',
             label: 'GitHub',
+            style: {
+              display: 'flex',
+              alignItems: 'center',
+            },
             position: 'right',
           },
         ],

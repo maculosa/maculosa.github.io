@@ -1,0 +1,317 @@
+[
+    {
+        "type": "group",
+        "label": "搜索引擎",
+        "key": "search-group",
+        "children": [
+            {
+                "name": "Google",
+                "icon": "/navigate/google.svg",
+                "url": "https://www.google.com"
+            },
+            {
+                "name": "Bing",
+                "icon": "/navigate/bing.svg",
+                "url": "https://www.bing.com"
+            },
+            {
+                "name": "Baidu",
+                "icon": "/navigate/baidu.svg",
+                "url": "https://www.baidu.com"
+            }
+        ]
+    },
+    {
+        "type": "group",
+        "label": "社交媒体",
+        "key": "social-media",
+        "children": [
+            {
+                "name": "Facebook",
+                "icon": "/navigate/facebook.svg",
+                "url": "https://www.facebook.com"
+            },
+            {
+                "name": "Twitter",
+                "icon": "/navigate/twitter.svg",
+                "url": "https://www.twitter.com"
+            },
+            {
+                "name": "Instagram",
+                "icon": "/navigate/instagram.svg",
+                "url": "https://www.instagram.com"
+            },
+            {
+                "name": "LinkedIn",
+                "icon": "/navigate/linkedIn.svg",
+                "url": "https://www.linkedin.com"
+            }
+
+        ]
+    },
+    {
+        "type": "group",
+        "label": "视频",
+        "key": "video-group",
+        "children": [
+            {
+                "name": "Youtube",
+                "icon": "/navigate/youtube.svg",
+                "url": "https://www.youtube.com"
+            },
+            {
+                "name": "Bilibili",
+                "icon": "/navigate/bilibili.svg",
+                "url": "https://www.bilibili.com"
+            },
+            {
+                "name": "腾讯视频",
+                "icon": "/navigate/tencent-video.svg",
+                "url": "https://v.qq.com"
+            }
+        ]
+    },
+    {
+        "type": "group",
+        "label": "开发",
+        "key": "develop-group",
+        "children": [
+            {
+                "name": "Github",
+                "icon": "/navigate/github.svg",
+                "url": "https://www.github.com"
+            },
+            {
+                "name": "Gitee",
+                "icon": "/navigate/gitee.svg",
+                "url": "https://www.gitee.com"
+            },
+            {
+                "name": "Stack Overflow",
+                "icon": "/navigate/stackoverflow.svg",
+                "url": "https://stackoverflow.com"
+            },
+            {
+                "name": "Dev.to",
+                "icon": "/navigate/dev.png",
+                "url": "https://dev.to"
+            },
+            {
+                "name": "开发者学习路线",
+                "icon": "/navigate/roadmap.png",
+                "url": "https://roadmap.sh/"
+            },
+            {
+                "name": "CS自学指南",
+                "icon": "https://csdiy.wiki/images/favicon.ico",
+                "url": "https://csdiy.wiki/"
+            },
+            {
+                "name": "Google 翻译",
+                "url": "https://translate.google.com/"
+            },
+            {
+                "name": "DeepL",
+                "icon": "https://static.deepl.com/img/apple-touch-icon.png",
+                "url": "https://www.deepl.com/"
+            },
+            {
+                "name": "QuickRef.ME",
+                "icon": "https://quickref.me/images/favicon.png?v=1",
+                "url": "https://quickref.me/"
+            }
+        ]
+    },
+    {
+        "type": "group",
+        "label": "镜像源",
+        "key": "mirrors",
+        "children": [
+            {
+                "name": "清华镜像源",
+                "icon": "https://mirrors.tuna.tsinghua.edu.cn/static/img/favicon.png",
+                "url": "https://mirrors.tuna.tsinghua.edu.cn"
+            }
+        ]
+    },
+    {
+        "type": "group",
+        "label": "Blog",
+        "key": "blog",
+        "children": [
+            {
+                "name": "Netlify",
+                "url": "https://www.netlify.com/"
+            },
+            {
+                "name": "CodeToImg",
+                "url": "https://codetoimg.com/"
+            }
+        ]
+    },
+    {
+        "type": "group",
+        "label": "设计",
+        "key": "design-group",
+        "children": [
+            {
+                "name": "Seeseed",
+                "url": "https://seeseed.com/"
+            }
+        ]
+    },
+    {
+        "type": "group",
+        "label": "前端开发",
+        "key": "front-end",
+        "children": [
+            {
+                "name": "Vue.js",
+                "url": "https://vuejs.org/"
+            },
+            {
+                "name": "Web.Dev",
+                "url": "https://web.dev/"
+            }
+        ]
+    },
+    {
+        "type": "group",
+        "label": "语言框架",
+        "key": "program-framework",
+        "children": [
+            {
+                "name": "Naive UI",
+                "icon": "https://www.naiveui.com/assets/naivelogo-93278402.svg",
+                "url": "https://naiveui.com/"
+            },
+            {
+                "name": "Element UI",
+                "icon": "https://element-plus.org/images/element-plus-logo-small.svg",
+                "url": "https://element-plus.org"
+            },
+            {
+                "name": "Ant Design",
+                "icon": "https://gw.alipayobjects.com/zos/rmsportal/rlpTLlbMzTNYuZGGCVYM.png",
+                "url": "https://ant.design"
+            },
+            {
+                "name": "Ant Design Vue",
+                "icon": "https://aliyuncdn.antdv.com/favicon.ico",
+                "url": "https://antdv.com"
+            },
+            {
+                "name": "Docusaurus",
+                "icon": "https://docusaurus.io/zh-CN/img/docusaurus.ico",
+                "url": "https://docusaurus.io/zh-CN/"
+            },
+            {
+                "name": "TailwindCSS",
+                "icon": "https://tailwindcss.com/favicons/favicon.ico?v=3",
+                "url": "https://tailwindcss.com/"
+            },
+            {
+                "name": "Tauri",
+                "icon": "https://tauri.app/meta/favicon-96x96.png",
+                "url": "https://tauri.app/"
+            },
+            {
+                "name": "Konva",
+                "icon": "/navigate/konva.svg",
+                "url": "https://konvajs.org/"
+            },
+            {
+                "name": "Rust语言圣经",
+                "icon": "https://course.rs/favicon.png",
+                "url": "https://course.rs/about-book.html"
+            },
+            {
+                "name": "Rust大佬给初学者的学习建议",
+                "url": "https://github.com/rustlang-cn/Rustt/blob/main/Articles/%5B2022-04-02%5D%20Rust%20%E5%A4%A7%E4%BD%AC%E7%BB%99%E5%88%9D%E5%AD%A6%E8%80%85%E7%9A%84%E5%AD%A6%E4%B9%A0%E5%BB%BA%E8%AE%AE.md"
+            }
+        ]
+    },
+    {
+        "type": "group",
+        "label": "Linux",
+        "key": "linux",
+        "children": [
+            {
+                "name": "Arch Linux",
+                "url": "https://archlinux.org"
+            },
+            {
+                "name": "Kail Linux",
+                "url": "https://www.kali.org/"
+            }
+        ]
+    },
+    {
+        "type": "group",
+        "label": "Other",
+        "key": "other",
+        "children": [
+            {
+                "name": "Stack Exchange",
+                "url": "https://www.stackexchange.com"
+            },
+            {
+                "name": "Medium",
+                "icon": "https://miro.medium.com/v2/1*m-R_BkNf1Qjr1YbyOIJY2w.png",
+                "url": "https://medium.com"
+            },
+            {
+                "name": "Slidev",
+                "url": "https://sli.dev/"
+            },
+            {
+                "name": "Civitai",
+                "url": "https://civitai.com/"
+            },
+            {
+                "name": "JavaPoint",
+                "url": "https://www.javatpoint.com/"
+            },
+            {
+                "name": "网线选购",
+                "url": "https://zhuanlan.zhihu.com/p/346120351"
+            },
+            {
+                "name": "REG007",
+                "url": "https://www.reg007.com/"
+            },
+            {
+                "name": "水木社区",
+                "url": "https://www.mysmth.net/nForum/#!mainpage"
+            },
+            {
+                "name": "OpenSea",
+                "url": "https://opensea.io/zh-CN"
+            },
+            {
+                "name": "Shields",
+                "url": "https://shields.io/"
+            },
+            {
+                "name": "README",
+                "url": "https://github.com/RichardLitt/standard-readme"
+            },
+            {
+                "name": "百度统计",
+                "url": "https://tongji.baidu.com/web5/welcome/login"
+            },
+            {
+                "name": "知末",
+                "url": "https://www.znzmo.com/"
+            },
+            {
+                "name": "OurSketch",
+                "url": "https://oursketch.com/resource?category=web"
+            },
+            {
+                "name": "PngImg",
+                "url": "https://pngimg.com/"
+            }
+        ]
+    }
+]

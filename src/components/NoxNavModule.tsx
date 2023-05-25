@@ -14,12 +14,12 @@ export default ({
 }: NoxNavModuleProps) => {
 
     return (
-        <div className="w-[100%] bg-[#ffffffcc] p-[16px] rounded-[8px]">
+        <div className="w-[100%] bg-[#ffffff88] p-[16px] rounded-[8px]">
             <h3 className="font-bold text-[22px] mb-[8px]">{ label }</h3>
-            <div className="grid grid-cols-5 gap-[16px]">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[16px]">
                 {
                     children.map(item => (
-                        <NoxNavItem {...item} />
+                        <NoxNavItem {...item} key={item.name} />
                     ))
                 }
             </div>

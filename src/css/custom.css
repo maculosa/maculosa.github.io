@@ -14,9 +14,10 @@
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --ifm-code-font-size: 95%;
-  --ifm-navbar-background-color: transparent;
+  --ifm-navbar-background-color: #f5f5f5;
   --ifm-font-color-base: #189981;
   --ifm-heading-color: var(--ifm-font-color-base);
+  --ifm-footer-background-color: #ffffffee;
   /* --ifm-menu-color: #ffcc31; */
   /* --ifm-menu-color-background-active: #ffcc31; */
 }
