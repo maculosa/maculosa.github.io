@@ -17,7 +17,7 @@ export default ({
 }: NoxNavItemProps) => {
 
     return (
-            <Link className={clsx(styles['nox-btn'], styles['btn-16'], 'transition-all duration-500 ease-in-out m-2 py-2 hover:no-underline rounded text-slate-900')
+            <Link className={clsx(styles['nox-btn'], styles['btn-16'], 'transition-all duration-500 ease-in-out py-2 hover:no-underline rounded text-slate-900')
             }
                 to={url}
             >

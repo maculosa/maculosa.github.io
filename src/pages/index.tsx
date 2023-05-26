@@ -34,12 +34,15 @@ export default function Home(): JSX.Element {
       title={''}
       description="Description will go into a meta tag in <head />"
     >
-      <div className="container-full flex">
-        <NoxNavigation className="w-3/4  sm:w-[100%]" />
+      <div className="container-full flex pr-[12px]">
+        <NoxNavigation className="w-[100%]" />
 
-        <div className={classnames(styles['tool-card'], 'w-1/4', 'sm:hidden')}>
-          <p className={styles['tool-name']}>Banmao Studio</p>
-          <div className={styles.gradient1}></div>
+        <div className="w-[100%] md:w-1/3">
+          <div className={classnames(styles['tool-card'], 'hidden', 'md:block')}>
+            <p className={styles['tool-name']}>Banmao Studio</p>
+            <div className={styles.gradient1}></div>
+          </div>
+          {/* <div className="bg-white opacity-70 min-h-[600px] shadow-md rounded-md blur-[2px]"></div> */}
         </div>
       </div>
 
