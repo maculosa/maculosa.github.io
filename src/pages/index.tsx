@@ -35,9 +35,9 @@ export default function Home(): JSX.Element {
       description="Description will go into a meta tag in <head />"
     >
       <div className="container-full flex">
-        <NoxNavigation className="w-3/4" />
+        <NoxNavigation className="w-3/4  sm:w-[100%]" />
 
-        <div className={classnames(styles['tool-card'], 'w-1/4')}>
+        <div className={classnames(styles['tool-card'], 'w-1/4', 'sm:hidden')}>
           <p className={styles['tool-name']}>Banmao Studio</p>
           <div className={styles.gradient1}></div>
         </div>
