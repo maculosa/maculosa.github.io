@@ -73,6 +73,25 @@
     },
     {
         "type": "group",
+        "label": "Go语言",
+        "key": "go",
+        "children": [
+            {
+                "name": "Go",
+                "url": "https://go.dev/"
+            },
+            {
+                "name": "Curl Converter",
+                "url": "https://curlconverter.com/go"
+            },
+            {
+                "name": "OKTools",
+                "url": "https://oktools.net/json2go"
+            }
+        ]
+    },
+    {
+        "type": "group",
         "label": "开发",
         "key": "develop-group",
         "children": [
