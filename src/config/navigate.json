@@ -260,6 +260,10 @@
                 "url": "https://archlinux.org"
             },
             {
+                "name": "ArchWiki",
+                "url": "https://www.archlinux.org/"
+            },
+            {
                 "name": "Kail Linux",
                 "url": "https://www.kali.org/"
             }
