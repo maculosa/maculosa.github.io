@@ -150,6 +150,10 @@
                 "name": "清华镜像源",
                 "icon": "https://mirrors.tuna.tsinghua.edu.cn/static/img/favicon.png",
                 "url": "https://mirrors.tuna.tsinghua.edu.cn"
+            },
+            {
+                "name": "中科大镜像源(USTC)",
+                "url": "https://mirrors.ustc.edu.cn"
             }
         ]
     },
