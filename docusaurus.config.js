@@ -27,7 +27,9 @@ const config = {
           // editUrl: 'https://github.com/maculosa/maculosa.github.io/edit/main/docs/',
         },
         blog: {
-          // routeBasePath: '/',
+          routeBasePath: '/',
+          blogTitle: 'Banmao Studio',
+          blogDescription: 'A Banmao powered blog!',
           showReadingTime: true,
           readingTime: ({content, frontMatter, defaultReadingTime}) =>
             defaultReadingTime({content, options: {wordsPerMinute: 300}}),

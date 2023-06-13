@@ -92,6 +92,26 @@
     },
     {
         "type": "group",
+        "label": "Rust",
+        "key": "rust",
+        "children": [
+            {
+                "name": "Rust",
+                "url": "https://www.rust-lang.org/zh-CN"
+            },
+            {
+                "name": "Rust语言圣经",
+                "icon": "https://course.rs/favicon.png",
+                "url": "https://course.rs/about-book.html"
+            },
+            {
+                "name": "Rust大佬给初学者的学习建议",
+                "url": "https://github.com/rustlang-cn/Rustt/blob/main/Articles/%5B2022-04-02%5D%20Rust%20%E5%A4%A7%E4%BD%AC%E7%BB%99%E5%88%9D%E5%AD%A6%E8%80%85%E7%9A%84%E5%AD%A6%E4%B9%A0%E5%BB%BA%E8%AE%AE.md"
+            }
+        ]
+    },
+    {
+        "type": "group",
         "label": "开发",
         "key": "develop-group",
         "children": [
@@ -242,15 +262,6 @@
                 "name": "Konva",
                 "icon": "/navigate/konva.svg",
                 "url": "https://konvajs.org/"
-            },
-            {
-                "name": "Rust语言圣经",
-                "icon": "https://course.rs/favicon.png",
-                "url": "https://course.rs/about-book.html"
-            },
-            {
-                "name": "Rust大佬给初学者的学习建议",
-                "url": "https://github.com/rustlang-cn/Rustt/blob/main/Articles/%5B2022-04-02%5D%20Rust%20%E5%A4%A7%E4%BD%AC%E7%BB%99%E5%88%9D%E5%AD%A6%E8%80%85%E7%9A%84%E5%AD%A6%E4%B9%A0%E5%BB%BA%E8%AE%AE.md"
             }
         ]
     },
