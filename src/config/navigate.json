@@ -213,16 +213,17 @@
                 "url": "https://vuejs.org/"
             },
             {
+                "name": "React",
+                "url": "https://react.dev/"
+            },
+            {
+                "name": "ReactNative",
+                "url": "https://reactnative.dev"
+            },
+            {
                 "name": "Web.Dev",
                 "url": "https://web.dev/"
-            }
-        ]
-    },
-    {
-        "type": "group",
-        "label": "语言框架",
-        "key": "program-framework",
-        "children": [
+            },
             {
                 "name": "Naive UI",
                 "icon": "https://www.naiveui.com/assets/naivelogo-93278402.svg",
